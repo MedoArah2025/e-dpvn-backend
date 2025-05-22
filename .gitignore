@@ -1,2 +1,46 @@
-# Fichiers d’environnement locaux (non versionnés)
+# Python
+*.pyc
+*.pyo
+__pycache__/
+*.pyd
+*.pdb
+
+# Django & Static
+media/
+static/
+staticfiles/
+*.log
+.coverage
+coverage/
+htmlcov/
+*.cover
+
+# Environnements virtuels
+.venv/
+venv/
+ENV/
+env/
+
+# Fichiers d’environnement locaux
 .env
+.env.*
+*.env
+
+# IDE & OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Docker/Compose
+*.pid
+*.bak
+
+# Tests
+test-results/
+pytest_cache/
+
+# Database Dumps (optionnel si tu fais des exports)
+*.sql
+dumps/
+
